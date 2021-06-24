@@ -21,10 +21,6 @@ The application is a trip cost calculator app.
 
 This is how you may set up this project locally. To get a local copy up and running follow these simple steps.
 
-## Prerequisites
-
-## Installation
-
 ## Acknowledgements
 
 The project was created as a part of [The Javascript full-stack bootcamp](https://thejsbootcamp.com/) from Flavio Copes
