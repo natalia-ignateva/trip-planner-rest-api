@@ -1,5 +1,5 @@
 module.exports = {
-    getTrips(req, res, trips) {
+    getTrips(res, trips) {
         trips.find().toArray((err, items) => {
             if (err) {
                 // eslint-disable-next-line no-console
