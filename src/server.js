@@ -33,7 +33,7 @@ mongo.connect(
 app.post('/trip', (req, res) => postTrip(req, res, trips));
 
 // GET a list of trips
-app.get('/trips', (req, res) => getTrips(req, res, trips));
+app.get('/trips', (req, res) => getTrips(res, trips));
 
 // POST expense of a trip (trip, date, amount, category, description)
 app.post('/expense', (req, res) => postExpense(req, res, expenses));
